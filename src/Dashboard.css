@@ -1,0 +1,71 @@
+/* src/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+
+.box-container {
+  width: calc(50% - 20px); /* Set width to 50% minus margin */
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100%; /* Set width to 100% */
+  background-color: #fff; /* Change background color to white */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soften the box shadow */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.box:hover {
+  transform: translateY(-5px); /* Add a subtle hover effect */
+}
+
+.chart-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 24px; /* Adjust icon size */
+}
+
+.label {
+  flex-grow: 1; /* Allow label to grow to fill available space */
+}
+
+/* src/Dashboard.css */
+
+.dashboard-title {
+  background-color: #f59a9a; /* Set your desired background color */
+  padding: 20px; /* Add padding for better appearance */
+  text-align: center;
+  margin-bottom: 20px; /* Add some space below the title */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  font-size: 2rem; /* Increase font size for title */
+  margin: 0 auto; /* Center the title horizontally */
+  width: fit-content; /* Adjust width to fit content */
+}
+
+.dashboard-container {
+  position: relative; /* Add position relative for positioning the dropdown */
+}
+
+.state-filter-container {
+  position: absolute;
+  top: 10px; /* Adjust top position */
+  right: 10px; /* Adjust right position */
+}
+
+.state-filter-container select {
+  padding: 5px;
+}

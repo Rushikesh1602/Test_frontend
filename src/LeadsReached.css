@@ -1,0 +1,22 @@
+.leads-reached-container {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(240, 20%, 99%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .leads-title {
+    color: #333;
+    font-size: 1.5rem; /* Increase font size for title */
+    margin-bottom: 20px; /* Add more spacing below title */
+  }
+  
+  .total-count {
+    font-size: 1.2rem; /* Increase font size for total count */
+    margin-bottom: 20px; /* Add spacing below total count */
+  }
+  

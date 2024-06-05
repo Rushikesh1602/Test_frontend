@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; // Import general styles
+import Dashboard from './Dashboard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="header-title">Customer Feedback Analysis Dashboard</h1> {/* Add class for styling */}
       </header>
+      <main className="main-content"> {/* Add class for styling */}
+        <Dashboard />
+      </main>
     </div>
   );
 }
